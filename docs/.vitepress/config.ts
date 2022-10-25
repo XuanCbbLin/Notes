@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress';
 
 export default defineConfig({
+  base: '/Notes/',
   themeConfig: {
     nav: [
       { text: 'Vue', link: '/vue/Creating-Vue-Application' },
