@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   themeConfig: {
     nav: [
-      { text: 'Other', link: '/other/project-format/Vite' },
       { text: 'Vite', link: '/vite/config' },
+      { text: 'Other', link: '/other/project-format/Vite' },
     ],
     sidebar: {
       '/other/': [
