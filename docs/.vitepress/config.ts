@@ -2,7 +2,10 @@ import { defineConfig } from 'vitepress';
 
 export default defineConfig({
   themeConfig: {
-    nav: [{ text: 'Other', link: '/other/project-format/Vite' }],
+    nav: [
+      { text: 'Other', link: '/other/project-format/Vite' },
+      { text: 'Vite', link: '/vite/config' },
+    ],
     sidebar: {
       '/other/': [
         {
@@ -26,6 +29,19 @@ export default defineConfig({
           items: [
             { text: 'unplugin-icons', link: '/other/plugins/unplugin-icons' },
             { text: 'cropper', link: '/other/plugins/cropper' },
+          ],
+        },
+      ],
+      '/vite/': [
+        {
+          text: 'Vite 相關設定',
+          collapsible: true,
+          items: [
+            { text: 'Vite config', link: '/vite/config' },
+            { text: 'Base64', link: '/vite/Base64' },
+            { text: 'css 設定', link: '/vite/CSS' },
+            { text: 'MPA 多頁應用設定', link: '/vite/Multi-Page-App' },
+            { text: 'ENV 檔案和環境 mode 設定', link: '/vite/Env-Variables-Modes' },
           ],
         },
       ],
