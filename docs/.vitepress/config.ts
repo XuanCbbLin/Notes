@@ -87,6 +87,11 @@ export default defineConfig({
             { text: 'cropper', link: '/other/plugins/cropper' },
           ],
         },
+        {
+          text: 'vitepress',
+          collapsible: true,
+          items: [{ text: 'deploying', link: '/other/vitepress/deploying' }],
+        },
       ],
     },
   },
