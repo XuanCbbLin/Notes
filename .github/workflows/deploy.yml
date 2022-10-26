@@ -18,8 +18,8 @@ jobs:
 
       - name: Install pnpm
         run: npm i -g pnpm
-      - name: Build
-        run: pnpm docs:build
+      - name: install & Build
+        run: pnpm i && pnpm docs:build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
