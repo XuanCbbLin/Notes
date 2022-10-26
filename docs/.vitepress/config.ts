@@ -21,7 +21,7 @@ export default defineConfig({
       ],
       '/vite/': [
         {
-          text: 'Vite 相關設定2222',
+          text: 'Vite 相關設定',
           collapsible: true,
           items: [
             { text: 'Vite config', link: '/vite/config' },
