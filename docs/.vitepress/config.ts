@@ -8,7 +8,7 @@ export default defineConfig({
       { text: 'Vite', link: '/vite/config' },
       { text: 'JS', link: '/JS/Map-Set' },
       { text: 'CSS', link: '/css/tailwindicss/background-image' },
-      { text: 'Git', link: '/git/ForkGUI' },
+      { text: 'Git', link: '/Git/ForkGUI' },
       { text: 'Other', link: '/other/project-format/Vite' },
     ],
     sidebar: {
@@ -56,11 +56,11 @@ export default defineConfig({
           items: [{ text: 'background-image', link: '/css/windicss/background-image' }],
         },
       ],
-      '/git/': [
+      '/Git/': [
         {
-          text: 'git',
+          text: 'Git',
           collapsible: true,
-          items: [{ text: 'Fork GUI 功能操作', link: '/git/ForkGUI' }],
+          items: [{ text: 'Fork GUI 功能操作', link: '/Git/ForkGUI' }],
         },
       ],
       '/other/': [
