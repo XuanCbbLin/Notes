@@ -6,7 +6,7 @@ export default defineConfig({
     nav: [
       { text: 'Vue', link: '/vue/Creating-Vue-Application' },
       { text: 'Vite', link: '/vite/config' },
-      { text: 'JS', link: '/js/Map-Set' },
+      { text: 'JS', link: '/JS/Map-Set' },
       { text: 'CSS', link: '/css/tailwindicss/background-image' },
       { text: 'Git', link: '/git/ForkGUI' },
       { text: 'Other', link: '/other/project-format/Vite' },
@@ -32,11 +32,11 @@ export default defineConfig({
           ],
         },
       ],
-      '/js/': [
+      '/JS/': [
         {
-          text: 'js',
+          text: 'JS',
           collapsible: true,
-          items: [{ text: 'Map 和 Set 用法', link: '/js/Map-Set' }],
+          items: [{ text: 'Map 和 Set 用法', link: '/JS/Map-Set' }],
         },
       ],
       '/css/': [
