@@ -1,7 +1,5 @@
 import { defineConfig } from 'vitepress';
 
-console.log('test');
-
 export default defineConfig({
   base: '/Notes/',
   themeConfig: {
