@@ -4,6 +4,7 @@
   - 圖片裁切
   - 圖片上傳
   - 圖片縮放
+  - 限制圖片裁切後範圍
 
 ## Vue Advanced Cropper plugin
 
@@ -82,6 +83,40 @@ export default {
 
 ```
 
+#### 限制圖片裁切後範圍
+
+因為圖片裁切後是以 `canvas` 呈現,可以在 `props` 時設定圖片裁切後大小
+
+```javascript
+<template>
+  <div>
+    <Cropper :canvas="canvasLimit" />
+  </div>
+</template>
+
+<script>
+import { Cropper, CircleStencil } from 'vue-advanced-cropper';
+import 'vue-advanced-cropper/dist/style.css';
+
+export default {
+  components: {
+    Cropper,
+  },
+  setup() {
+    //  限制圖片裁切後範圍
+    const canvasLimit = {
+      maxWidth: 600,
+      maxHeight: 600,
+    };
+
+    return {
+      canvasLimit,
+    };
+  },
+};
+</script>
+```
+
 ### 參考資料
 
 - 文件
@@ -97,6 +132,7 @@ export default {
 
   - [getResult()](https://advanced-cropper.github.io/vue-advanced-cropper/components/cropper.html#getresult)
   - [HTMLCanvasElement.toDataURL()](https://developer.mozilla.org/zh-TW/docs/Web/API/HTMLCanvasElement/toDataURL)
+  - [vue-advanced-cropper 設定圖片裁切後大小](https://advanced-cropper.github.io/vue-advanced-cropper/components/cropper.html#canvas)
 
 - 上傳圖片
 
