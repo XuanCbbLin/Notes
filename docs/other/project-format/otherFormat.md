@@ -127,6 +127,11 @@ module.exports = {
 
 [Automatic Class Sorting with Prettier](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
 
+## UnoCSS sort class
+
+- install `WindiCSS IntelliSense extension`
+- settings.json add `"windicss.sortOnSave": true`
+
 ## scss/sass format
 
 使用 compass 建立 scss/sass 會產生 config.rb 設定 scss/sass 編譯出來的 css,以下介紹 format config
