@@ -1,12 +1,10 @@
 # Vite 自動和手動安裝 ESlint
 
-## Vite 自動安裝 `ESLint` 和 `Prettier`
+## Vite 自動安裝 `ESLint`
 
 `pnpm create vue@latest`
 
-### ESLint
-
-#### 常見問題
+### 問題
 
 執行 `prettier --write .` 前,使用 `pnpm dev` eslint 會出現以下畫面,這是換行 CRLF(windows) 和 LF(linux) 的問題
 
@@ -101,11 +99,11 @@ module.exports = {
 [Using eslint:recommended](https://eslint.org/docs/latest/user-guide/configuring/configuration-files#using-eslintrecommended)\
 [Configuring ESLint](https://eslint.org/docs/latest/user-guide/configuring/)
 
-## Vite 手動安裝 `ESLint` 和 `Prettier`
+## Vite 手動安裝 `ESLint`
 
 執行 `pnpm i -D eslint @vue/eslint-config-prettier eslint-plugin-vue prettier`
 
-### ESLint
+### 問題
 
 如果將已配置的註解 `eslint-env node ` 拿掉會報錯
 
@@ -152,13 +150,13 @@ module.exports = {
 }
 ```
 
-#### 補充
+## 補充
 
 - `ecmaVersion` 指定 ECMAScript 允許的版本
 - `root` 設定是否從根目錄尋找
 - `package.json` 也可設定 `eslint` 規則,只要增加 `eslintConfig`
 
-#### 完整設定
+### 完整設定
 
 ```javascript
 module.exports = {
@@ -177,7 +175,7 @@ module.exports = {
 };
 ```
 
-#### 參考資料
+### 參考資料
 
 [Configuring ESLint](https://eslint.org/docs/latest/user-guide/configuring#specifying-environments)\
 [Using configuration comments](https://eslint.org/docs/latest/user-guide/configuring/language-options#using-configuration-comments)\

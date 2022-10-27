@@ -1,4 +1,4 @@
-# vue cli 手動裝 `ESLint` 和 `Prettier`
+# vue cli 手動裝 `ESLint`
 
 ## 使用 pnpm 安装 vue create 報錯
 

@@ -1,5 +1,73 @@
 # 其他 format 設定
 
+## Prettier 設定
+
+根據 `eslint`的限制或是 format 客製設定
+
+```json
+{
+  "singleQuote": true,
+  "printWidth": 110,
+  "arrowParens": "avoid",
+  "tabWidth": 2
+}
+```
+
+## 補充
+
+`package.json` 的 `scripts` 可設定 `prettier --write .` 對整個專案的檔案 `format`
+
+```json
+{
+  "scripts": {
+    "format": "prettier --write ."
+  }
+}
+```
+
+### 參考資料
+
+[Configuring Prettier](https://prettier.io/docs/en/options.html)\
+[prettier install](https://prettier.io/docs/en/install.html)
+
+## Vue
+
+### eslint-plugin-vue
+
+檢查 `.vue` 檔的 `<template>` `<script>` 是否符合 `eslint` 規範
+
+`.eslintrc.cjs` 或 `.eslintrc.js` 配置
+
+```javascript
+module.exports = {
+  extends: ['plugin:vue/vue3-essential'],
+};
+```
+
+#### 參考資料
+
+[eslint-plugin-vue](https://eslint.vuejs.org/)\
+[风格指南](https://v2.cn.vuejs.org/v2/style-guide/index.html#%E4%BC%98%E5%85%88%E7%BA%A7-A%EF%BC%9A%E5%BF%85%E8%A6%81%E7%9A%84)
+
+### @vue/eslint-config-prettier
+
+關閉 `Eslint` 與 `Prettier` 衝突規則
+
+`.eslintrc.cjs` 或 `.eslintrc.js` 配置,注意將 `@vue/eslint-config-prettier` 放在最後的索引
+
+```js
+module.exports = {
+  extends: [
+    // ... other configs
+    '@vue/eslint-config-prettier',
+  ],
+};
+```
+
+#### 參考資料
+
+[@vue/eslint-config-prettier](https://www.npmjs.com/package/@vue/eslint-config-prettier)
+
 ## setting.json 設定
 
 專案一開始設定好 `workspace -> setting.json` ,其他人拿到專案後只要下載 `prettier extension` 就不用另外設定 format
