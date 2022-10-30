@@ -36,7 +36,11 @@ export default defineConfig({
         {
           text: 'JS',
           collapsible: true,
-          items: [{ text: 'Map 和 Set 用法', link: '/JS/Map-Set' }],
+          items: [
+            { text: 'Map 和 Set 用法', link: '/JS/Map-Set' },
+            { text: 'Array.from ', link: '/JS/array.from' },
+            { text: 'for...of ', link: '/JS/for...of' },
+          ],
         },
       ],
       '/css/': [
