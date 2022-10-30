@@ -59,6 +59,11 @@ export default defineConfig({
           collapsible: true,
           items: [{ text: 'background-image', link: '/css/windicss/background-image' }],
         },
+        {
+          text: 'css 屬性',
+          collapsible: true,
+          items: [{ text: 'text-transform', link: '/css/styleProperty/text-transform' }],
+        },
       ],
       '/Git/': [
         {
