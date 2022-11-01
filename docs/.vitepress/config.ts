@@ -7,6 +7,7 @@ export default defineConfig({
       { text: 'Vue', link: '/vue/Creating-Vue-Application' },
       { text: 'Vite', link: '/vite/config' },
       { text: 'JS', link: '/JS/Map-Set' },
+      { text: 'Typescript', link: '/typescript/types' },
       { text: 'CSS', link: '/css/tailwindicss/background-image' },
       { text: 'Git', link: '/Git/ForkGUI' },
       { text: 'Other', link: '/other/project-format/Vite' },
