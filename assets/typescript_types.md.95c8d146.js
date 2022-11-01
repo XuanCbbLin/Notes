@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s}from"./app.846d1fb9.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"typescript/types.md"}'),r={name:"typescript/types.md"};function a(p,c,o,n,i,_){return s(),e("div")}const f=t(r,[["render",a]]);export{m as __pageData,f as default};
