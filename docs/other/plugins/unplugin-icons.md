@@ -58,5 +58,5 @@ export default defineConfig({
 ## 參考資料
 
 [unplugin-icons](https://github.com/antfu/unplugin-icons)\
-[unplugin-vue-components](https://github.com/antfu/unplugin-vue-components#migrate-from-vite-plugin-components)
+[unplugin-vue-components](https://github.com/antfu/unplugin-vue-components#migrate-from-vite-plugin-components) \
 [icones](https://icones.js.org/collection/all?s=tick)
