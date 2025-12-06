@@ -16,14 +16,14 @@ export default defineConfig({
       '/vue/': [
         {
           text: 'vue 補充內容',
-          collapsible: true,
+          collapsed: true,
           items: [{ text: 'option 方式建立 vue app', link: '/vue/Creating-Vue-Application' }],
         },
       ],
       '/vite/': [
         {
           text: 'Vite 相關設定',
-          collapsible: true,
+          collapsed: true,
           items: [
             { text: 'Vite config', link: '/vite/config' },
             { text: 'Base64', link: '/vite/Base64' },
@@ -36,7 +36,7 @@ export default defineConfig({
       '/JS/': [
         {
           text: 'JS',
-          collapsible: true,
+          collapsed: true,
           items: [
             { text: 'Map 和 Set 用法', link: '/JS/Map-Set' },
             { text: 'Array.from ', link: '/JS/array.from' },
@@ -47,36 +47,36 @@ export default defineConfig({
       '/css/': [
         {
           text: 'tailwindicss',
-          collapsible: true,
+          collapsed: true,
           items: [{ text: 'background-image', link: '/css/tailwindicss/background-image' }],
         },
         {
           text: 'unocss',
-          collapsible: true,
+          collapsed: true,
           items: [{ text: 'config', link: '/css/unocss/config' }],
         },
         {
           text: 'windicss',
-          collapsible: true,
+          collapsed: true,
           items: [{ text: 'background-image', link: '/css/windicss/background-image' }],
         },
         {
           text: 'css 屬性',
-          collapsible: true,
+          collapsed: true,
           items: [{ text: 'text-transform', link: '/css/styleProperty/text-transform' }],
         },
       ],
       '/Git/': [
         {
           text: 'Git',
-          collapsible: true,
+          collapsed: true,
           items: [{ text: 'Fork GUI 功能操作', link: '/Git/ForkGUI' }],
         },
       ],
       '/other/': [
         {
           text: '專案初始設定',
-          collapsible: true,
+          collapsed: true,
           items: [
             { text: 'Vite 專案初始設定', link: '/other/project-format/Vite' },
             { text: 'Vue CLI 初始設定', link: '/other/project-format/Vue-CLI' },
@@ -86,12 +86,12 @@ export default defineConfig({
         },
         {
           text: 'axios',
-          collapsible: true,
+          collapsed: true,
           items: [{ text: 'axios api 管理', link: '/other/axios/package-api' }],
         },
         {
           text: 'plugins',
-          collapsible: true,
+          collapsed: true,
           items: [
             { text: 'unplugin-icons', link: '/other/plugins/unplugin-icons' },
             { text: 'cropper', link: '/other/plugins/cropper' },
@@ -99,7 +99,7 @@ export default defineConfig({
         },
         {
           text: 'vitepress',
-          collapsible: true,
+          collapsed: true,
           items: [{ text: 'deploying', link: '/other/vitepress/deploying' }],
         },
       ],
