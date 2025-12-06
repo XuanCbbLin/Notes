@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as e,ae as n}from"./chunks/framework.Cr4MuSDj.js";const E=JSON.parse('{"title":"CSS","description":"","frontmatter":{},"headers":[],"relativePath":"vite/CSS.md","filePath":"vite/CSS.md"}'),t={name:"vite/CSS.md"};function l(p,s,h,k,r,d){return e(),a("div",null,[...s[0]||(s[0]=[n("",14)])])}const c=i(t,[["render",l]]);export{E as __pageData,c as default};

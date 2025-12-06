@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as s}from"./chunks/framework.Cr4MuSDj.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"typescript/types.md","filePath":"typescript/types.md"}'),p={name:"typescript/types.md"};function r(a,c,o,n,i,_){return s(),e("div")}const f=t(p,[["render",r]]);export{m as __pageData,f as default};
